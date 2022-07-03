@@ -1,0 +1,78 @@
+
+.main-content{
+    min-height: 1000px;
+    display:grid;
+    width: 90%;
+    grid-template-columns: 300px 700px;
+    margin: 10px auto;
+}
+.left-section{
+   background-color: aqua;
+   padding: 1rem;
+}
+.right-section{
+    background-color: rgb(199, 212, 235);
+    width: 90%;
+}
+.profile-image{
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 60%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.icon{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+ul .skill-name{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+    text-decoration: none;
+}
+.progress-bar{
+    border: 1px solid white;
+    height: 4px;
+    color: rgb(151, 53, 53);
+}
+.right-main-content{
+    padding: 2rem 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
